@@ -1,0 +1,3 @@
+- include: pip.yml tags=pip
+- include: aws_cli.yml tags=aws_cli
+- include: aws_credentials.yml tags=aws_credentials 
