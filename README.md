@@ -19,8 +19,8 @@ There are no defaults, you should define required variables.
 | aws_key                     | AWS access key |
 | aws_secret                  | AWS secret     |
 | aws_region                  | AWS region     |
-| aws_session_token           | AWS session token |
-| aws_output                  | AWS CLI output format |
+| aws_session_token           | AWS session token (_optional_)|
+| aws_output                  | AWS CLI output format (_optional_)|
 
 
 Example Playbook
