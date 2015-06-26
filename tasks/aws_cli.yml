@@ -1,2 +1,2 @@
-- name: install aws cli
+- name: AWS CLI | Install
   pip: name=awscli state=present
