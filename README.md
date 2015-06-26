@@ -25,7 +25,8 @@ There are no defaults, you should define required variables.
 
 Example Playbook
 -------------------------
-
+```yml
   - hosts: servers
     roles:
        - palkan.aws_cli
+```
