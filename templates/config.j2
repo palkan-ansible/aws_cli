@@ -1,10 +1,10 @@
 [default]
 aws_access_key_id={{ aws_key }}
 aws_secret_access_key={{ aws_secret }}
-{% if defined?(aws_session_token) %}
+{% if aws_session_token is defined %}
 aws_session_token={{ aws_session_token }}
 {% endif %}
 region={{ aws_region }}
-{% if defined?(aws_output) %}
+{% if aws_output is defined %}
 output={{ aws_output }}
 {% endif %}
